@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaxActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tax Calculator"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Salary"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        />
+    
+    <EditText
+        android:id="@+id/etSalary"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="In RS"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="60dp"
+        android:text="calculate"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:gravity=""/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Your Tax Amount Is: "
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/tvTaxAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
